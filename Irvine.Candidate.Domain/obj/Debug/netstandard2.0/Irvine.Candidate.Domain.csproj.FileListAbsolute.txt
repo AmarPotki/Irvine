@@ -1,0 +1,12 @@
+C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.deps.json
+C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.dll
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csprojAssemblyReference.cache
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csproj.CoreCompileInputs.cache
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.AssemblyInfoInputs.cache
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.AssemblyInfo.cs
+C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.pdb
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.dll
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.pdb
+C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.dll
+C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.pdb
+C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csproj.CopyComplete

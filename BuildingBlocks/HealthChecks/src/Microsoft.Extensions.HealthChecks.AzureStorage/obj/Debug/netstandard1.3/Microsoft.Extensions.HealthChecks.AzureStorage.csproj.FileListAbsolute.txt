@@ -1,0 +1,12 @@
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.deps.json
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.dll
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.pdb
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.dll
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.pdb
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.csprojAssemblyReference.cache
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.csproj.CoreCompileInputs.cache
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.AssemblyInfoInputs.cache
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.AssemblyInfo.cs
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.csproj.CopyComplete
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.dll
+C:\Repositories\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard1.3\Microsoft.Extensions.HealthChecks.AzureStorage.pdb
