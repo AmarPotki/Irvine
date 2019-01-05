@@ -7,6 +7,7 @@ using BuildingBlocks.Infrastructure.Services.Identity;
 using MediatR;
 using Irvine.Candidate.Domain.AggregatesModel.CandidateAggregate;
 using Irvine.Candidate.Domain.AggregatesModel.ProviderAggregate;
+using Irvine.Candidate.Domain.Domain.Exceptions;
 namespace Irvine.Candidate.WebSPA.Application.Commands
 {
     public class AddNewCandidateCommandHandler : IRequestHandler<AddNewCandidateCommand, bool>{
@@ -23,8 +24,8 @@ namespace Irvine.Candidate.WebSPA.Application.Commands
             var providerIdentityId = _identityService.GetUserIdentity();
             var provider = await _providerRepository.FindAsync(providerIdentityId);
             //todo: change the text of exception
-            if (provider == null) { throw new AgentDomainException("can't find the provider");}
-            var candidate = new Candidate(message.Name, message.LastName, provider.Id, message.ImageUrl,
+            if (provider == null) { throw new CandidateDomainException("can't find the provider");}
+            var candidate = new Domain.AggregatesModel.CandidateAggregate.Candidate(message.Name, message.LastName, provider.Id, message.ImageUrl,
                 message.ResumeUrl, message.LookingForNext, message.StartTime.Value, message.LocationId);
                 candidate.AddExperience(ExperienceType.ManufacturingEngineer, message.ManufacturingEngineer);
                 candidate.AddExperience(ExperienceType.MedicalDevice, message.MedicalDevice);

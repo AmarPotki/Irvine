@@ -16,3 +16,12 @@ C:\Repositories\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netst
 C:\Repositories\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.AssemblyInfo.cs
 C:\Repositories\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.dll
 C:\Repositories\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.pdb
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\bin\Debug\netstandard2.0\Resilience.Http.deps.json
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\bin\Debug\netstandard2.0\Resilience.Http.dll
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\bin\Debug\netstandard2.0\Resilience.Http.pdb
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.csprojAssemblyReference.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.csproj.CoreCompileInputs.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.AssemblyInfoInputs.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.AssemblyInfo.cs
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.dll
+D:\RahyabRepository\Irvine\BuildingBlocks\Resilience\Resilience.Http\obj\Debug\netstandard2.0\Resilience.Http.pdb

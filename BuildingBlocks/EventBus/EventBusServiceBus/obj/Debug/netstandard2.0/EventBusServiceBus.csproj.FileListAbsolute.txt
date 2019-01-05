@@ -22,3 +22,15 @@ C:\Repositories\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\nets
 C:\Repositories\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CopyComplete
 C:\Repositories\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.dll
 C:\Repositories\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.pdb
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.deps.json
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.dll
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.pdb
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.dll
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.pdb
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csprojAssemblyReference.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CoreCompileInputs.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfoInputs.cache
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfo.cs
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CopyComplete
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.dll
+D:\RahyabRepository\Irvine\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.pdb

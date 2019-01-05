@@ -10,3 +10,15 @@ C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.C
 C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.dll
 C:\Repositories\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.pdb
 C:\Repositories\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csproj.CopyComplete
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.deps.json
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.dll
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\Irvine.Candidate.Domain.pdb
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.dll
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.pdb
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csprojAssemblyReference.cache
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csproj.CoreCompileInputs.cache
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.AssemblyInfoInputs.cache
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.AssemblyInfo.cs
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.csproj.CopyComplete
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.dll
+D:\RahyabRepository\Irvine\Irvine.Candidate.Domain\obj\Debug\netstandard2.0\Irvine.Candidate.Domain.pdb
