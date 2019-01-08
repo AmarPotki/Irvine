@@ -16,3 +16,12 @@ C:\Repositories\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\ne
 C:\Repositories\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.AssemblyInfo.cs
 C:\Repositories\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.dll
 C:\Repositories\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\bin\Debug\netstandard1.5\DataProtection.deps.json
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\bin\Debug\netstandard1.5\DataProtection.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\bin\Debug\netstandard1.5\DataProtection.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.csprojAssemblyReference.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.AssemblyInfoInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.AssemblyInfo.cs
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\DataProtection\DataProtection\obj\Debug\netstandard1.5\DataProtection.pdb

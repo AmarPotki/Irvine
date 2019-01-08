@@ -25,3 +25,12 @@ D:\RahyabRepository\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\net
 D:\RahyabRepository\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.AssemblyInfo.cs
 D:\RahyabRepository\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.dll
 D:\RahyabRepository\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.deps.json
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\bin\Debug\netstandard2.0\SeedWork.Domain.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.csprojAssemblyReference.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.AssemblyInfoInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.AssemblyInfo.cs
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\SeedWork\SeedWork.Domain\obj\Debug\netstandard2.0\SeedWork.Domain.pdb

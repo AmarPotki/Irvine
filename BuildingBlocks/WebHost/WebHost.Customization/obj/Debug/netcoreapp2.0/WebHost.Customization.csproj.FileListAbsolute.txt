@@ -16,3 +16,12 @@ C:\Repositories\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\ne
 C:\Repositories\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.AssemblyInfo.cs
 C:\Repositories\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.dll
 C:\Repositories\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\bin\Debug\netcoreapp2.0\WebHost.Customization.deps.json
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\bin\Debug\netcoreapp2.0\WebHost.Customization.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\bin\Debug\netcoreapp2.0\WebHost.Customization.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.csprojAssemblyReference.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.AssemblyInfoInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.AssemblyInfo.cs
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\WebHost\WebHost.Customization\obj\Debug\netcoreapp2.0\WebHost.Customization.pdb

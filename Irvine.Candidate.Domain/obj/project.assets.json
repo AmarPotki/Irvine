@@ -74,16 +74,17 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "Kz5wOPR5fqpJGTiIn4DCEPwiI90QRvylyBky3rmiMi1Fhe431uTrMXynUUVl+jDS0Qp+tgiFUCls00kyLYE98Q==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        "Microsoft.NETCore.Platforms.1.1.0.nupkg.sha512",
-        "Microsoft.NETCore.Platforms.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
         "runtime.json"
       ]
     },
@@ -215,10 +216,12 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "sha512": "BWYdrACMy1Sbq7Kh1oISS+2qKX1dHhXNpRByG3c6M9i2fhU9BZqO3nFYIabmbZuQwd7svR5zfxNHgmgv2XkkIg==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.4.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -290,23 +293,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC1\\.nuget\\packages\\": {},
+    "C:\\Users\\Ashkan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RahyabRepository\\Irvine\\Irvine.Candidate.Domain\\Irvine.Candidate.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Ashkan\\Documents\\RahyabRayan\\Irvine\\Source\\Irvine\\Irvine.Candidate.Domain\\Irvine.Candidate.Domain.csproj",
       "projectName": "Irvine.Candidate.Domain",
-      "projectPath": "D:\\RahyabRepository\\Irvine\\Irvine.Candidate.Domain\\Irvine.Candidate.Domain.csproj",
-      "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
-      "outputPath": "D:\\RahyabRepository\\Irvine\\Irvine.Candidate.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Ashkan\\Documents\\RahyabRayan\\Irvine\\Source\\Irvine\\Irvine.Candidate.Domain\\Irvine.Candidate.Domain.csproj",
+      "packagesPath": "C:\\Users\\Ashkan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ashkan\\Documents\\RahyabRayan\\Irvine\\Source\\Irvine\\Irvine.Candidate.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ashkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -314,14 +317,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\RahyabRepository\\Sepia\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\RahyabRepository\\Irvine\\BuildingBlocks\\SeedWork\\SeedWork.Domain\\SeedWork.Domain.csproj": {
-              "projectPath": "D:\\RahyabRepository\\Irvine\\BuildingBlocks\\SeedWork\\SeedWork.Domain\\SeedWork.Domain.csproj"
+            "C:\\Users\\Ashkan\\Documents\\RahyabRayan\\Irvine\\Source\\Irvine\\BuildingBlocks\\SeedWork\\SeedWork.Domain\\SeedWork.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ashkan\\Documents\\RahyabRayan\\Irvine\\Source\\Irvine\\BuildingBlocks\\SeedWork\\SeedWork.Domain\\SeedWork.Domain.csproj"
             }
           }
         }

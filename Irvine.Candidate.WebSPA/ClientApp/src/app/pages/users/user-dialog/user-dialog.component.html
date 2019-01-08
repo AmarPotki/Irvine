@@ -1,0 +1,144 @@
+<h1 mat-dialog-title><span *ngIf="!user.id">Add</span><span *ngIf="user.id">Edit</span> user</h1>
+<div mat-dialog-content>
+    <form [formGroup]="form" class="user-form" (ngSubmit)="onSubmit()">
+        <mat-tab-group class="vertical-tabs">
+            <mat-tab label="Profile">
+                <div fxLayout="column" class="form-field-outer">
+                    <mat-form-field class="w-100">
+                        <input matInput placeholder="Name" formControlName="name">
+                    </mat-form-field>
+                    <mat-form-field class="w-100">
+                        <input matInput placeholder="LastName" formControlName="lastName">
+                    </mat-form-field>
+                    <mat-form-field class="w-105">
+                        <input matInput [matDatepicker]="startTime" placeholder="StartTime" formControlName="startTime">
+                        <mat-datepicker-toggle matSuffix [for]="startTime"></mat-datepicker-toggle>
+                        <mat-datepicker #startTime></mat-datepicker>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="w-100">
+                        <input matInput [matDatepicker]="prescreeningLastVerified" placeholder="PrescreeningLastVerified"
+                            formControlName="prescreeningLastVerified">
+                        <mat-datepicker-toggle matSuffix [for]="prescreeningLastVerified"></mat-datepicker-toggle>
+                        <mat-datepicker #prescreeningLastVerified></mat-datepicker>
+                    </mat-form-field>
+                  
+                    <mat-form-field class="w-100">
+                        <textarea matInput placeholder="LookingForNext" formControlName="lookingForNext"></textarea>
+                    </mat-form-field>
+                    
+                    <div class="w-100">
+                        <span>
+                            <button type="button" mat-raised-button color="primary" (click)="showUploadDialog()">
+                                upload
+                                Image
+                            </button>
+                            <input type="file" id="image" #imageUploadDialog placeholder="Image url" formControlName="imageUrl">
+                        </span>
+                        <span>
+                            <button type="button" color="accent" mat-raised-button (click)="showUploadDialog()" class="btn btn-primary">upload
+                                resume</button>
+                            <input type="file" id="image" #imageUploadDialog placeholder="Image url" formControlName="resumeUrl">
+                        </span>
+                    </div>
+                </div>
+            </mat-tab>
+            <mat-tab label="Detial">
+                <div fxLayout="column" class="form-field-outer">
+                    <mat-form-field class="w-100">
+                        <mat-select placeholder="Location" formControlName="locationId">
+                            <mat-option *ngFor="let location of locations" [value]="location">
+                                {{location}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="locationControl"
+                            [matAutocomplete]="auto">
+                        <mat-autocomplete #auto="matAutocomplete">
+                            <mat-option *ngFor="let location of locations" [value]="location">
+                                {{ location }}
+                            </mat-option>
+                        </mat-autocomplete>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="w-100">
+                        <mat-select placeholder="MedicalDevice" formControlName="medicalDevice">
+                            <mat-option *ngFor="let device of medicalDevices" [value]="device">
+                                {{device}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="w-100">
+                        <mat-select placeholder="Manufacturing Engineer" formControlName="manufacturingEngineer">
+                            <mat-option *ngFor="let engineer of manufacturingEngineers" [value]="engineer">
+                                {{engineer}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="w-100">
+                        <mat-select placeholder="Quality Engineer" formControlName="qualityEngineer">
+                            <mat-option *ngFor="let engineer of manufacturingEngineers" [value]="engineer">
+                                {{engineer}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="w-100">
+                        <mat-select placeholder="Validation Engineer" formControlName="validationEngineer">
+                            <mat-option *ngFor="let engineer of manufacturingEngineers" [value]="engineer">
+                                {{engineer}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </mat-tab>
+            <mat-tab label="Rate">
+                <div fxLayout="column" class="form-field-outer">
+                    <mat-slider class="custom-slider" formControlName="minimumRate" [disabled]="disabled" [invert]="invert"
+                        [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel" [tickInterval]="tickInterval"
+                        style="margin-top:1rem" [vertical]="vertical">
+                    </mat-slider>
+                    <mat-slider class="custom-slider" formControlName="maximumRate" [disabled]="disabled" [invert]="invert"
+                        [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel" [tickInterval]="tickInterval"
+                        [vertical]="vertical">
+                    </mat-slider>
+                </div>
+            </mat-tab>
+            <mat-tab label="Skills">
+                <div fxLayout="column" class="form-field-outer">
+                    <mat-form-field class="w-100">
+                        <mat-chip-list #chipList>
+                            <mat-chip *ngFor="let skill of skills" color="primary" selected="true" [selectable]="selectable" [removable]="removable"
+                                (remove)="remove(skill)">
+                                {{skill.name}}
+                                <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                            </mat-chip>
+                            <input placeholder="Skills..." [matChipInputFor]="chipList" [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                                [matChipInputAddOnBlur]="addOnBlur" (matChipInputTokenEnd)="add($event)"
+                                formControlName="SkillDtos" />
+                        </mat-chip-list>
+                    </mat-form-field>
+                </div>
+            </mat-tab>
+            <!-- <mat-tab label="Settings" formGroupName="settings">
+                <div fxLayout="column" class="form-field-outer">
+                    <mat-checkbox formControlName="isActive">Active</mat-checkbox>
+                    <mat-checkbox formControlName="isDeleted">Blocked</mat-checkbox>
+                    <p *ngIf="user.id"><span>Registration date:</span> <i>{{user.settings.registrationDate | date:"dd
+                            MMMM, yyyy 'at' HH:mm" }}</i></p>
+                    <p *ngIf="user.id"><span>Last joined date:</span> <i>{{user.settings.joinedDate | date:"dd MMMM,
+                            yyyy 'at' HH:mm" }}</i> </p>
+                </div>
+            </mat-tab> -->
+        </mat-tab-group>
+    </form>
+</div>
+<div mat-dialog-actions fxLayout="row" fxLayoutAlign="space-between center">
+    <button type="button" (click)="onSubmit()" name="btnSmt" id="btnSbmt" value="Smt" mat-raised-button color="primary"
+        [mat-dialog-close]="form.value" [disabled]="!form.valid">
+        <span *ngIf="!user.id">Save</span><span *ngIf="user.id">Update</span>
+    </button>
+    <!--<button mat-raised-button color="primary" (click)="onSubmit(this.form)" [mat-dialog-close]="form.value" [disabled]="!form.valid"><span *ngIf="!user.id">Save</span><span *ngIf="user.id">Update</span></button>-->
+    <button mat-raised-button color="warn" (click)="close()">Cancel</button>
+</div>

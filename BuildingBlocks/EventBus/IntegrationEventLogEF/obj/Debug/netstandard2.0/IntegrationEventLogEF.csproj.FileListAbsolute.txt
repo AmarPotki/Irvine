@@ -22,3 +22,15 @@ C:\Repositories\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\n
 C:\Repositories\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csproj.CopyComplete
 C:\Repositories\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.dll
 C:\Repositories\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.deps.json
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\EventBus.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\EventBus.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csprojAssemblyReference.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.AssemblyInfoInputs.cache
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.AssemblyInfo.cs
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csproj.CopyComplete
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.dll
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.pdb
