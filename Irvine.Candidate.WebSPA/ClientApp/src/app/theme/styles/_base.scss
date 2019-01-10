@@ -39,13 +39,22 @@ a{
     padding: 0 !important;
 }
 .p-1{
-    padding: 0.5rem;
+    padding: 0.5rem !important;
 }
 .py-1{
-    padding: 1rem 0;
+    padding: 1rem 0 !important;
 }
 .m-0{
     margin: 0 !important;
+}
+.m-1{
+    margin: 4px !important;
+}
+.mt-1{
+    margin-top: 4px !important;
+}
+.mx-1{
+    margin: 0 4px !important;
 }
 .text-center{
     text-align: center;
@@ -73,7 +82,7 @@ a{
     margin-top: 9px;
     border-radius: 0 !important;
     .mat-menu-content{
-        padding: 0;
+        padding: 0 !important;
     }
 }
 .icon-sm, .mat-icon.icon-sm{
@@ -90,6 +99,9 @@ a{
 }
 .white{
     color: #fff;
+}
+.mat-card-header-text{
+    margin: 0 8px !important;
 }
 .draggable{
     cursor: move;
@@ -134,7 +146,10 @@ a{
     overflow: hidden;
     &.custom-card{
         .mat-card-header{
-            margin: -24px -24px 0;
+            margin: -16px -16px 0;
+            .mat-card-title{
+                font-size: 14px;
+            }
         }
         .mat-card-actions{
             padding-left: 6px;
@@ -171,6 +186,9 @@ a{
     }
 }
 
+.sidenav .mat-drawer-inner-container{
+    overflow: hidden; 
+} 
 
 .app{
     &.fixed-header{
@@ -306,7 +324,7 @@ a{
         .sidenav{
             width: 70px;
         }
-        .sidenav-menu-outer.user-block-show{
+        .sidenav-menu-outer.user-block-show .ps{
             height: calc(100vh - #{$toolbar-height + $mini-sidenav-user-block-height}); 
         }
         .user-block{

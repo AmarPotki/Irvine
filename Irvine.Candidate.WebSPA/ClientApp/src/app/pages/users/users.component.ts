@@ -56,9 +56,7 @@ export class UsersComponent implements OnInit {
 
     public openUserDialog(user){
         let dialogRef = this.dialog.open(UserDialogComponent, {
-            data: user,
-            width: '1000px',
-            height: '600px',
+            data: user
         });
 
         dialogRef.afterClosed().subscribe(user => {

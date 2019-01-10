@@ -9,7 +9,7 @@
                             <mat-icon>more_vert</mat-icon>
                         </button>                                     
                     </mat-toolbar>
-                    <mat-menu #filterMenu="matMenu" xPosition="before">
+                    <mat-menu #filterMenu="matMenu" xPosition="before" overlapTrigger="true">
                         <span (mouseleave)="filterMenuTrigger.closeMenu()">
                             <button mat-menu-item (click)="type = 'all';getMails();">All</button>
                             <button mat-menu-item (click)="type = 'starred';getMails();">Starred</button>
@@ -64,7 +64,7 @@
                         </div>
                         <button mat-raised-button color="warn" (click)="compose()">Compose</button>
                     </mat-toolbar>
-                    <mat-menu #moreMenu="matMenu" xPosition="before">
+                    <mat-menu #moreMenu="matMenu" xPosition="before" overlapTrigger="true">
                         <span (mouseleave)="moreMenuTrigger.closeMenu()">
                             <button mat-menu-item (click)="setAsRead()">Mark as read</button>
                             <button mat-menu-item (click)="setAsUnRead()">Mark as unread</button>

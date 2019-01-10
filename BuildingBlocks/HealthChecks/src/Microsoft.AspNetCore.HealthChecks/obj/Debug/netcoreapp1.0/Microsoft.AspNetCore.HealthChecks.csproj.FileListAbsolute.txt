@@ -29,8 +29,8 @@ C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\Health
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netcoreapp1.0\Microsoft.Extensions.HealthChecks.pdb
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.csprojAssemblyReference.cache
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.csproj.CoreCompileInputs.cache
-C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.AssemblyInfoInputs.cache
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.AssemblyInfo.cs
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.csproj.CopyComplete
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.dll
 C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.pdb
+C:\Users\Ashkan\Documents\RahyabRayan\Irvine\Source\Irvine\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netcoreapp1.0\Microsoft.AspNetCore.HealthChecks.AssemblyInfoInputs.cache

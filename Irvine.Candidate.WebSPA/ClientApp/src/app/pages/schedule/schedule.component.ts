@@ -27,28 +27,28 @@ const colors: any = {
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.component.html',
-  animations: [ blockTransition ],
+  animations: [blockTransition],
   host: {
     '[@blockTransition]': ''
   }
 })
 export class ScheduleComponent implements OnInit {
-  view: string = 'month';
+  view = 'month';
   viewDate: Date = new Date();
-  activeDayIsOpen: boolean = true;
+  activeDayIsOpen = true;
   actions: CalendarEventAction[] = [{
-      label: '<i class="material-icons icon-sm white">edit</i>',
-      onClick: ({event}: {event: CalendarEvent}): void => {
-          this.openScheduleDialog(event);
-      }
+    label: '<i class="material-icons icon-sm white">edit</i>',
+    onClick: ({ event }: { event: CalendarEvent }): void => {
+      this.openScheduleDialog(event);
+    }
   }, {
-      label: '<i class="material-icons icon-sm white">close</i>',
-      onClick: ({event}: {event: CalendarEvent}): void => {
-          this.events = this.events.filter(iEvent => iEvent !== event);
-          this.snackBar.open('Event deleted successfully!', null, {
-              duration: 1500
-          });
-      }
+    label: '<i class="material-icons icon-sm white">close</i>',
+    onClick: ({ event }: { event: CalendarEvent }): void => {
+      this.events = this.events.filter(iEvent => iEvent !== event);
+      this.snackBar.open('Event deleted successfully!', null, {
+        duration: 1500
+      });
+    }
   }];
   events: CalendarEvent[] = [{
     start: subDays(startOfDay(new Date()), 1),
@@ -82,16 +82,16 @@ export class ScheduleComponent implements OnInit {
 
 
   public settings: Settings;
-  constructor(public appSettings:AppSettings, 
-              public dialog: MatDialog, 
-              public snackBar: MatSnackBar){
-      this.settings = this.appSettings.settings; 
+  constructor(public appSettings: AppSettings,
+    public dialog: MatDialog,
+    public snackBar: MatSnackBar) {
+    this.settings = this.appSettings.settings;
   }
 
   ngOnInit() {
   }
 
-  dayClicked({date, events}: {date: Date, events: CalendarEvent[]}): void {    
+  dayClicked({ date, events }: { date: Date, events: CalendarEvent[] }): void {
     if (isSameMonth(date, this.viewDate)) {
       if ((isSameDay(this.viewDate, date) && this.activeDayIsOpen === true) || events.length === 0) {
         this.activeDayIsOpen = false;
@@ -102,23 +102,22 @@ export class ScheduleComponent implements OnInit {
     }
   }
 
-  openScheduleDialog(event){
-    let dialogRef = this.dialog.open(ScheduleDialogComponent, {
+  openScheduleDialog(event) {
+    const dialogRef = this.dialog.open(ScheduleDialogComponent, {
       data: event
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      if(result){
-        if(!result.isEdit){
+      if (result) {
+        if (!result.isEdit) {
           result.color = colors.blue;
           result.actions = this.actions;
           this.events.push(result);
           this.refresh.next();
-        }else{
-          //implement edit here
+        } else {
+          // implement edit here
         }
       }
     });
   }
-
 }

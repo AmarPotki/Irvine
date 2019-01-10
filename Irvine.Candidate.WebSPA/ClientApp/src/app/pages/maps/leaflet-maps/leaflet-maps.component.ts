@@ -3,6 +3,7 @@ import { AppSettings } from '../../../app.settings';
 import { Settings } from '../../../app.settings.model';
 import "leaflet-map";
 import "style-loader!leaflet/dist/leaflet.css";
+declare var L:any;
 
 @Component({
   selector: 'app-leaflet-maps',

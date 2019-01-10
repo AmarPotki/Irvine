@@ -1,5 +1,6 @@
-import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener, ViewChildren, QueryList } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { PerfectScrollbarDirective, PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 import { AppSettings } from '../app.settings';
 import { Settings } from '../app.settings.model';
 import { MenuService } from '../theme/components/menu/menu.service';
@@ -11,8 +12,9 @@ import { MenuService } from '../theme/components/menu/menu.service';
   providers: [ MenuService ]
 })
 export class PagesComponent implements OnInit { 
-
   @ViewChild('sidenav') sidenav:any;
+  @ViewChild('backToTop') backToTop:any;  
+  @ViewChildren(PerfectScrollbarDirective) pss: QueryList<PerfectScrollbarDirective>;
   public settings:Settings;
   public menus = ['vertical', 'horizontal'];
   public menuOption:string;
@@ -23,7 +25,6 @@ export class PagesComponent implements OnInit {
   public showBackToTop:boolean = false;
   public toggleSearchBar:boolean = false;
   private defaultMenu:string; //declared for return default menu when window resized 
-  public scrolledContent:any;
 
   constructor(public appSettings:AppSettings, public router:Router, private menuService: MenuService){        
     this.settings = this.appSettings.settings;
@@ -41,7 +42,8 @@ export class PagesComponent implements OnInit {
   }
 
   ngAfterViewInit(){
-    setTimeout(() => { this.settings.loadingSpinner = false }, 300)  
+    setTimeout(() => { this.settings.loadingSpinner = false }, 300);
+    this.backToTop.nativeElement.style.display = 'none';  
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) { 
         if(!this.settings.sidenavIsPinned){
@@ -73,37 +75,29 @@ export class PagesComponent implements OnInit {
   public toggleSidenav(){
     this.sidenav.toggle();
   }
-  
-  public onPsScrollY(event){
-    this.scrolledContent = event.target;
-    (this.scrolledContent.scrollTop > 300) ? this.showBackToTop = true : this.showBackToTop = false; 
+
+  public onPsScrollY(event){   
+    (event.target.scrollTop > 300) ? this.backToTop.nativeElement.style.display = 'flex' : this.backToTop.nativeElement.style.display = 'none';
     if(this.settings.menu == 'horizontal'){
       if(this.settings.fixedHeader){
-        var currentScrollTop = (this.scrolledContent.scrollTop > 56) ? this.scrolledContent.scrollTop : 0;   
+        var currentScrollTop = (event.target.scrollTop > 56) ? event.target.scrollTop : 0;   
         (currentScrollTop > this.lastScrollTop) ? this.isStickyMenu = true : this.isStickyMenu = false;
         this.lastScrollTop = currentScrollTop; 
       } 
       else{
-        (this.scrolledContent.scrollTop > 56) ? this.isStickyMenu = true : this.isStickyMenu = false;  
+        (event.target.scrollTop > 56) ? this.isStickyMenu = true : this.isStickyMenu = false;  
       }
-    } 
-  }
-
-  public scrollToTop(){
-    var scrollDuration = 200;
-    var scrollStep = -this.scrolledContent.scrollTop / (scrollDuration / 20);
-    var scrollInterval = setInterval(()=>{
-      if(this.scrolledContent.scrollTop != 0){
-         this.scrolledContent.scrollBy(0, scrollStep);
-      }
-      else{
-        clearInterval(scrollInterval); 
-      }
-    },10);
-    if(window.innerWidth <= 768){
-      this.scrolledContent.scrollTop = 0;
     }
   }
+
+  public scrollToTop() {
+    this.pss.forEach(ps => {
+      if(ps.elementRef.nativeElement.id == 'main' || ps.elementRef.nativeElement.id == 'main-content'){
+        ps.scrollToTop(0,250);
+      }
+    });
+  }
+  
 
   @HostListener('window:resize')
   public onWindowResize():void {

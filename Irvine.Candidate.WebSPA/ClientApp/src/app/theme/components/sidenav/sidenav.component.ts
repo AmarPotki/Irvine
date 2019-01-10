@@ -1,7 +1,8 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ViewChild } from '@angular/core';
 import { AppSettings } from '../../../app.settings';
 import { Settings } from '../../../app.settings.model';
 import { MenuService } from '../menu/menu.service';
+import { PerfectScrollbarComponent } from 'ngx-perfect-scrollbar';
 
 @Component({
   selector: 'app-sidenav',
@@ -11,6 +12,7 @@ import { MenuService } from '../menu/menu.service';
   providers: [ MenuService ]
 })
 export class SidenavComponent implements OnInit {
+  @ViewChild('sidenavPS') sidenavPS: PerfectScrollbarComponent;
   public userImage= '../assets/img/users/user.jpg';
   public menuItems:Array<any>;
   public settings: Settings;
@@ -35,6 +37,10 @@ export class SidenavComponent implements OnInit {
         }
       }
     }
+  }
+
+  public updatePS(e){
+    this.sidenavPS.directiveRef.update();
   }
 
 }

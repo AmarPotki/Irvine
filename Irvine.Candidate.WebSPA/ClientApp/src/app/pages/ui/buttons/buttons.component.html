@@ -19,11 +19,11 @@
                 <mat-card-subtitle><h2>Raised Buttons</h2></mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-                <button mat-raised-button>Basic</button>
-                <button mat-raised-button color="primary">Primary</button>
-                <button mat-raised-button color="accent">Accent</button>
-                <button mat-raised-button color="warn">Warn</button>
-                <button mat-raised-button disabled>Disabled</button>
+                <button mat-raised-button class="m-1">Basic</button>
+                <button mat-raised-button color="primary" class="m-1">Primary</button>
+                <button mat-raised-button color="accent" class="m-1">Accent</button>
+                <button mat-raised-button color="warn" class="m-1">Warn</button>
+                <button mat-raised-button disabled class="m-1">Disabled</button>
             </mat-card-content>
         </mat-card>
     </div> 
@@ -33,15 +33,15 @@
                 <mat-card-subtitle><h2>Fab Buttons</h2></mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-                <button mat-fab>Basic</button>
-                <button mat-fab color="primary">Primary</button>
-                <button mat-fab color="accent">Accent</button>
-                <button mat-fab color="warn">Warn</button>
-                <button mat-fab disabled>Disabled</button>
-                <button mat-fab>
+                <button mat-fab class="m-1">Basic</button>
+                <button mat-fab color="primary" class="m-1">Primary</button>
+                <button mat-fab color="accent" class="m-1">Accent</button>
+                <button mat-fab color="warn" class="m-1">Warn</button>
+                <button mat-fab disabled class="m-1">Disabled</button>
+                <button mat-fab class="m-1">
                     <mat-icon>favorite</mat-icon>
                 </button>
-                <a mat-fab routerLink=".">Link</a>
+                <a mat-fab routerLink="." class="m-1">Link</a>
             </mat-card-content>
         </mat-card>
     </div>
@@ -51,15 +51,15 @@
                 <mat-card-subtitle><h2>Mini Fab Buttons</h2></mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-                <button mat-mini-fab>Basic</button>
-                <button mat-mini-fab color="primary">Primary</button>
-                <button mat-mini-fab color="accent">Accent</button>
-                <button mat-mini-fab color="warn">Warn</button>
-                <button mat-mini-fab disabled>Disabled</button>
-                <button mat-mini-fab>
+                <button mat-mini-fab class="m-1">Basic</button>
+                <button mat-mini-fab color="primary" class="m-1">Primary</button>
+                <button mat-mini-fab color="accent" class="m-1">Accent</button>
+                <button mat-mini-fab color="warn" class="m-1">Warn</button>
+                <button mat-mini-fab disabled class="m-1">Disabled</button>
+                <button mat-mini-fab class="m-1">
                   <mat-icon>favorite</mat-icon>
                 </button>
-                <a mat-mini-fab routerLink=".">Link</a>
+                <a mat-mini-fab routerLink="." class="m-1">Link</a>
             </mat-card-content>
         </mat-card>
     </div>
@@ -93,20 +93,44 @@
                 <mat-card-subtitle><h2>Toggle Buttons</h2></mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-                <mat-button-toggle-group #group="matButtonToggleGroup">
-                    <mat-button-toggle value="left">
-                        <mat-icon>format_align_left</mat-icon>
-                    </mat-button-toggle>
-                    <mat-button-toggle value="center">
-                        <mat-icon>format_align_center</mat-icon>
-                    </mat-button-toggle>
-                    <mat-button-toggle value="right">
-                        <mat-icon>format_align_right</mat-icon>
-                    </mat-button-toggle>
-                    <mat-button-toggle value="justify" disabled>
-                        <mat-icon>format_align_justify</mat-icon>
-                    </mat-button-toggle>
-                </mat-button-toggle-group>
+                <p>
+                    Default appearance:
+                    <mat-button-toggle-group #group="matButtonToggleGroup">
+                        <mat-button-toggle value="left">
+                                <mat-icon>format_align_left</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="center">
+                            <mat-icon>format_align_center</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="right">
+                            <mat-icon>format_align_right</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="justify" disabled>
+                            <mat-icon>format_align_justify</mat-icon>
+                        </mat-button-toggle>
+                    </mat-button-toggle-group>
+                </p>
+                
+                <p class="mt-1">
+                    Legacy appearance:
+                    <mat-button-toggle-group appearance="legacy" #group="matButtonToggleGroup">
+                        <mat-button-toggle value="left">
+                                <mat-icon>format_align_left</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="center">
+                            <mat-icon>format_align_center</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="right">
+                            <mat-icon>format_align_right</mat-icon>
+                        </mat-button-toggle>
+                        <mat-button-toggle value="justify" disabled>
+                            <mat-icon>format_align_justify</mat-icon>
+                        </mat-button-toggle>
+                    </mat-button-toggle-group>
+                </p>
+
+
+
             </mat-card-content>
         </mat-card>
     </div>           

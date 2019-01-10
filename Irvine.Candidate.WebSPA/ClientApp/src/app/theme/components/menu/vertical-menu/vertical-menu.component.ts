@@ -1,6 +1,5 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, Output, ViewEncapsulation, EventEmitter, AfterViewInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
 import { AppSettings } from '../../../../app.settings';
 import { Settings } from '../../../../app.settings.model';
 import { MenuService } from '../menu.service';
@@ -10,52 +9,40 @@ import { MenuService } from '../menu.service';
   templateUrl: './vertical-menu.component.html',
   styleUrls: ['./vertical-menu.component.scss'],
   encapsulation: ViewEncapsulation.None,
-  providers: [ MenuService ]
+  providers: [MenuService]
 })
-export class VerticalMenuComponent implements OnInit {
-  themingForm: FormGroup;
-  options: FormGroup;
-
-
+export class VerticalMenuComponent implements OnInit, AfterViewInit {
   @Input('menuItems') menuItems;
   @Input('menuParentId') menuParentId;
-  parentMenu:Array<any>;
+  @Output() onClickMenuItem: EventEmitter<any> = new EventEmitter<any>();
+  parentMenu: Array<any>;
   public settings: Settings;
-  constructor(public appSettings:AppSettings, public menuService:MenuService, public router:Router,public formBuilder:FormBuilder) { 
+  constructor(public appSettings: AppSettings, public menuService: MenuService, public router: Router) {
     this.settings = this.appSettings.settings;
   }
 
-  ngOnInit() {     
-    this.parentMenu = this.menuItems.filter(item => item.parentId == this.menuParentId); 
-    this.options = this.formBuilder.group({
-      hideRequired: false,
-      floatLabel: 'auto',
-    });
-    this.themingForm = this.formBuilder.group({
-      'color': 'primary',
-      'fontSize': [16, Validators.min(10)],
-    }); 
+  ngOnInit() {
+    this.parentMenu = this.menuItems.filter(item => item.parentId === this.menuParentId);
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        if(this.settings.fixedHeader){
-          let mainContent = document.getElementById('main-content');
-          if(mainContent){
+        if (this.settings.fixedHeader) {
+          const mainContent = document.getElementById('main-content');
+          if (mainContent) {
             mainContent.scrollTop = 0;
           }
-        }
-        else{
+        } else {
           document.getElementsByClassName('mat-drawer-content')[0].scrollTop = 0;
         }
-      }                
+      }
     });
   }
 
-  onClick(menuId){
+  onClick(menuId) {
     this.menuService.toggleMenuItem(menuId);
-    this.menuService.closeOtherSubMenus(this.menuItems, menuId);    
+    this.menuService.closeOtherSubMenus(this.menuItems, menuId);
+    this.onClickMenuItem.emit(menuId);
   }
-
 }

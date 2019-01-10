@@ -2,7 +2,7 @@
     <mat-sidenav *ngIf="settings.menu == 'vertical'" [opened]="settings.sidenavIsOpened" [mode]="(settings.sidenavIsPinned) ? 'side' : 'over'" #sidenav class="sidenav mat-elevation-z6">
         <app-sidenav></app-sidenav>
     </mat-sidenav>
-    <mat-sidenav-content perfectScrollbar [disabled]="settings.fixedHeader" (psScrollY)="onPsScrollY($event)">
+    <mat-sidenav-content id="main" perfectScrollbar [disabled]="settings.fixedHeader" (psScrollY)="onPsScrollY($event)">
         <mat-toolbar color="primary" class="flex-p-x">
             <div fxLayout="row" fxLayoutAlign="space-between center" class="w-100">            
                 <div fxLayout="row" fxLayoutAlign="center center">                    
@@ -52,7 +52,11 @@
             <mat-icon>settings</mat-icon>
         </div>
 
-        <div *ngIf="showBackToTop" fxLayout="row" fxLayoutAlign="center center" class="back-to-top transition-2" (click)="scrollToTop();">
+        <!--<div *ngIf="showBackToTop" fxLayout="row" fxLayoutAlign="center center" class="back-to-top transition-2" (click)="scrollToTop();">
+            <mat-icon>arrow_upward</mat-icon>
+        </div>-->
+
+        <div #backToTop fxLayout="row" fxLayoutAlign="center center" class="back-to-top" (click)="scrollToTop()">
             <mat-icon>arrow_upward</mat-icon>
         </div>
 

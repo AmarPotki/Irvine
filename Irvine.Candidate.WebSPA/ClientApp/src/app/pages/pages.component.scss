@@ -2,7 +2,8 @@
 
 .sidenav{
     width: $sidenav-width;
-    overflow: hidden;   
+    overflow: hidden; 
+    border: none !important;  
 }
 .horizontal-menu{
     padding: 0;
@@ -170,8 +171,7 @@
     border-radius: 4px;    
     &:hover{
         opacity: 0.9;
-    }
-    
+    }    
 }
 
 

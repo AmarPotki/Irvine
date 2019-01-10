@@ -13,7 +13,7 @@
                           <mat-icon>more_vert</mat-icon>
                       </button>                                     
                   </mat-toolbar>
-                  <mat-menu #userMenu="matMenu" xPosition="before">
+                  <mat-menu #userMenu="matMenu" xPosition="before" overlapTrigger="true">
                       <span (mouseleave)="userMenuTrigger.closeMenu()">
                           <button mat-menu-item>
                               <mat-icon>account_circle</mat-icon>
@@ -63,7 +63,7 @@
                           <mat-icon>more_vert</mat-icon>
                       </button> 
                   </mat-toolbar>
-                  <mat-menu #personMenu="matMenu" xPosition="before">
+                  <mat-menu #personMenu="matMenu" xPosition="before" overlapTrigger="true">
                       <span (mouseleave)="personMenuTrigger.closeMenu()">
                           <button mat-menu-item>
                               <mat-icon>account_circle</mat-icon>

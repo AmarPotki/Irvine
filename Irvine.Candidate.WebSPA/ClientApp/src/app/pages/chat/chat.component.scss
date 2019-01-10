@@ -50,12 +50,13 @@
 }
 .chat-sidenav{
     border-right: 1px solid transparent;
-    overflow: hidden;   
+    overflow: hidden;
+    width: 200px;   
 }
 .chat-content{
     padding: 12px;
     height: calc(100vh - (#{$toolbar-height} + #{$inner-sidenav-content-padding}*2 + 238px));
 }
 .chat-sidenav-list {
-    height: calc(100vh - (#{$toolbar-height} + #{$inner-sidenav-content-padding}*2 + 132px));
+    height: calc(100vh - (#{$toolbar-height} + #{$inner-sidenav-content-padding}*2 + 134px));
 }

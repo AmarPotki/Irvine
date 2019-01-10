@@ -1,12 +1,12 @@
-.app{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
-#app-spinner{
+#app-spinner {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -26,11 +26,13 @@
     -webkit-transition: visibility 0.5s, opacity 0.3s linear;
     -moz-transition: visibility 0.5s, opacity 0.3s linear;
     transition: visibility 0.5s, opacity 0.3s linear;
-    &.hide{
+
+    &.hide {
         visibility: hidden;
-        opacity: 0; 
+        opacity: 0;
     }
-    h4{
+
+    h4 {
         margin-top: 10px;
         letter-spacing: 0.02em;
         opacity: 0;
@@ -43,26 +45,73 @@
 }
 
 @keyframes loading-text-opacity {
-    0%  {opacity: 0}
-    20% {opacity: 0}
-    50% {opacity: 1}
-    100%{opacity: 0}
+    0% {
+        opacity: 0
+    }
+
+    20% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }
+
 @-moz-keyframes loading-text-opacity {
-    0%  {opacity: 0}
-    20% {opacity: 0}
-    50% {opacity: 1}
-    100%{opacity: 0}
+    0% {
+        opacity: 0
+    }
+
+    20% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }
+
 @-webkit-keyframes loading-text-opacity {
-    0%  {opacity: 0}
-    20% {opacity: 0}
-    50% {opacity: 1}
-    100%{opacity: 0}
+    0% {
+        opacity: 0
+    }
+
+    20% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }
+
 @-o-keyframes loading-text-opacity {
-    0%  {opacity: 0}
-    20% {opacity: 0}
-    50% {opacity: 1}
-    100%{opacity: 0}
+    0% {
+        opacity: 0
+    }
+
+    20% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }

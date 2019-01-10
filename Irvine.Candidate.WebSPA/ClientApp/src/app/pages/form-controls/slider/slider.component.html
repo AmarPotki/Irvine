@@ -21,24 +21,24 @@
                 </section>
 
                 <section class="py-1">
-                    <mat-checkbox [(ngModel)]="showTicks">Show ticks</mat-checkbox>
-                    <mat-checkbox [(ngModel)]="autoTicks" *ngIf="showTicks">Auto ticks</mat-checkbox>
-                    <mat-form-field *ngIf="showTicks && !autoTicks">
+                    <mat-checkbox [(ngModel)]="showTicks" class="mx-1">Show ticks</mat-checkbox>
+                    <mat-checkbox [(ngModel)]="autoTicks" *ngIf="showTicks" class="mx-1">Auto ticks</mat-checkbox>
+                    <mat-form-field *ngIf="showTicks && !autoTicks" class="mx-1">
                         <input matInput type="number" placeholder="Tick interval" [(ngModel)]="tickInterval">
                     </mat-form-field>
                 </section>
 
                 <section class="py-1">
-                    <mat-checkbox [(ngModel)]="thumbLabel">Show thumb label</mat-checkbox>
+                    <mat-checkbox [(ngModel)]="thumbLabel" class="mx-1">Show thumb label</mat-checkbox>
                 </section>
 
                 <section class="py-1">
-                    <mat-checkbox [(ngModel)]="vertical">Vertical</mat-checkbox>
-                    <mat-checkbox [(ngModel)]="invert">Inverted</mat-checkbox>
+                    <mat-checkbox [(ngModel)]="vertical" class="mx-1">Vertical</mat-checkbox>
+                    <mat-checkbox [(ngModel)]="invert" class="mx-1">Inverted</mat-checkbox>
                 </section>
 
                 <section class="py-1">
-                    <mat-checkbox [(ngModel)]="disabled">Disabled</mat-checkbox>
+                    <mat-checkbox [(ngModel)]="disabled" class="mx-1">Disabled</mat-checkbox>
                 </section>
 
                 <hr>
